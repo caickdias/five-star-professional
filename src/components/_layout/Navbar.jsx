@@ -4,7 +4,7 @@ import { navbarMenu } from '../../menus/navbar';
 
 const Navbar = () => {
   return (
-    <div className='flex px-24 w-full h-20 items-center justify-between'>
+    <div className='flex px-24 w-full min-h-[5rem] h-20 items-center justify-between'>
         <a href="https://www.fivestarprofessional.com/">
             <Logo 
                 size={90}

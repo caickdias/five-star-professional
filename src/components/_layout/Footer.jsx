@@ -7,10 +7,12 @@ const Footer = () => {
   return (
     <div className='flex flex-col w-full text-white pt-16 items-center justify-center bg-red-900'>
         
-        <div className='flex w-full justify-evenly mb-12 '>
+        <div className='flex flex-wrap  w-full justify-evenly mb-12 '>
             <div>
                 <Logo size={200} />
-                <p className='font-bold text-xl pt-8'>EAGAN, MINNESOTA</p>
+                <p className='font-bold text-xl pt-8'>2117 Cliff Drive</p>
+                <p className='font-bold text-xl'>Eagan, MN 55122</p>
+                <p className='font-bold text-xl mb-8'>United States</p>
             </div>
 
             {
