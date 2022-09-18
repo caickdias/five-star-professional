@@ -1,9 +1,10 @@
 import './App.css';
+import Navbar from './components/_layout/Navbar';
 
 function App() {
   return (
-    <div className="bg-red-500 w-auto h-screen">
-      
+    <div className='flex h-screen bg-gray-100'>
+      <Navbar />
     </div>
   );
 }
