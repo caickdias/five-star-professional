@@ -4,17 +4,21 @@ import { navbarMenu } from '../../menus/navbar';
 
 const Navbar = () => {
   return (
-    <div className='flex p-4 px-12 w-full h-20 border-rose-900 items-center justify-between'>
-        <Logo 
-            size={90}
-        />
+    <div className='flex px-24 w-full h-20 items-center justify-between'>
+        <a href="https://www.fivestarprofessional.com/">
+            <Logo 
+                size={90}
+            />
+        </a>
         
-        <div className='flex items-center justify-center'>
+        <div className='flex items-center justify-center h-full'>
             {
-                navbarMenu.map(item => (
-                    <a href={item.path} className='text-red-900 text-lg font-bold mx-8'>
+                navbarMenu.map(item => (                    
+                    <a href={item.path} 
+                        className='flex items-center border-b-2 border-transparent justify-center h-full hover:border-red-800 transition-all duration-300text-black text-lg font-bold mx-8'
+                    >
                         {item.title.toUpperCase()}
-                    </a>
+                    </a>                    
                 ))
             }
         </div>
