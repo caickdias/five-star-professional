@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/five-star-professional/static/css/main.ba818de1.css",
+    "main.js": "/five-star-professional/static/js/main.99393902.js",
+    "static/media/financial-professionals.jpg": "/five-star-professional/static/media/financial-professionals.a3891e0d05b85e5c8cca.jpg",
+    "static/media/workwithus.jpg": "/five-star-professional/static/media/workwithus.01dc55105c7845d27a22.jpg",
+    "static/media/fs_about.jpg": "/five-star-professional/static/media/fs_about.7090711707ded4a75fbe.jpg",
+    "static/media/home-professionals.jpg": "/five-star-professional/static/media/home-professionals.ee1b1b3a29e4e27e468d.jpg",
+    "static/media/star.png": "/five-star-professional/static/media/star.1c3dd19ac32db43c994b.png",
+    "index.html": "/five-star-professional/index.html",
+    "main.ba818de1.css.map": "/five-star-professional/static/css/main.ba818de1.css.map",
+    "main.99393902.js.map": "/five-star-professional/static/js/main.99393902.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba818de1.css",
+    "static/js/main.99393902.js"
+  ]
+}
