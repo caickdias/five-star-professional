@@ -1,8 +1,14 @@
 import React from 'react'
 
-import HomeCard from '../HomeCard'
 import FinancialImg from '../../assets/financial-professionals.jpg';
 import HomeImg from '../../assets/home-professionals.jpg';
+import WorkWithUsImg from '../../assets/workwithus.jpg';
+import AboutUsImg from '../../assets/fs_about.jpg';
+import ResearchImg from '../../assets/star.png';
+
+import HomeCard from '../HomeCard'
+import AboutUsCard from '../AboutUsCard';
+
 
 const Main = () => {
     
@@ -33,7 +39,7 @@ const Main = () => {
                 </div>
             </div>
 
-            <div className='flex flex-wrap items-center justify-center py-16 bg-gray-600 text-white'>
+            <div className='flex flex-wrap items-center justify-center py-16 bg-gray-500 text-white'>
 
                 <div className="flex justify-center w-1/2">
                     <a className='flex items-center justify-center' href="https://www.fivestarprofessional.com/Market/RE">
@@ -59,45 +65,27 @@ const Main = () => {
 
             <div className='flex flex-wrap w-full items-center justify-evenly'>
 
-                <div className='flex flex-col w-1/4 items-center justify-around mb-12'>
+                <AboutUsCard 
+                    img={WorkWithUsImg}
+                    title="Work With Us"
+                    description="We employ bright, dedicated individuals who are passionate about results, committed to teamwork and focused on providing exceptional client service."                
+                    url="https://www.fivestarprofessional.com/public/workwithus"
+                />
+                
+                <AboutUsCard 
+                    img={AboutUsImg}
+                    title="About Us"
+                    description="Five Star Professional conducts market research to define and promote professional excellence in the professions we serve. Do you work with a Five Star award winner?"                
+                    url="https://www.fivestarprofessional.com/public/aboutus"
+                />
 
-                    <div className="w-64 h-64 rounded-full">
-                        <img className='h-full rounded-full hover:scale-110 transition-all'src={require('../../assets/workwithus.jpg')} />                    
-                    </div>
-                    
-                    <h1 className='font-bold text-2xl my-8'>
-                        Work With Us
-                    </h1>
-                    <p>
-                    Five Star Professional conducts market research to define and promote professional excellence.
-                    </p>
-                </div>
+                <AboutUsCard 
+                    img={ResearchImg}
+                    title="Research"
+                    description="Five Star Professional conducts research to help consumers with the important decision of selecting a service professional."                
+                    url="https://www.fivestarprofessional.com/public/research"
+                />
 
-                <div className='flex flex-col w-1/4 items-center justify-around mb-12'>
-
-                    <div className="w-64 h-64">
-                        <img className='h-full rounded-full hover:scale-110 transition-all'src={require('../../assets/fs_about.jpg')} />                    
-                    </div>
-
-                    <h1 className='font-bold text-2xl my-8'>
-                        About Us
-                    </h1>
-                    <p>
-                    Five Star Professional conducts market research to define and promote professional excellence in the professions we serve.
-                    </p>
-                </div>
-
-                <div className='flex flex-col w-1/4 items-center justify-around mb-12'>
-
-                    <div className="w-64 h-64">
-                        <img className='h-full rounded-full hover:scale-110 transition-all'src={require('../../assets/star.png')} />                    
-                    </div>
-
-                    <h1 className='font-bold text-2xl my-8'>
-                        Research
-                    </h1>
-                    <p>Five Star Professional conducts research to help consumers with the important decision of selecting a service professional.</p>
-                </div>
             </div>
         </div>
     )
