@@ -25,7 +25,9 @@ const Navbar = () => {
 
         <div>
             <a href="https://www.fivestarprofessional.com/account/login" className='text-red-900 text-xl'>
-                Log In
+                <p className='hover:scale-125 transition-all'>
+                    Log In
+                </p>
             </a>
         </div>
 
